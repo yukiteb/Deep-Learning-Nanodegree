@@ -1,1 +1,2 @@
-
+# Classifying Dog Breed with CNN
+In this project, we build a dog-breed classifier using CNN (Convolutional Neural Network). First, we. Finally, we build an app (function) which tells whether a given picture of whether it is a human, a dog, or something else. If the app identifies picture as a dog then it tells you the breed, but if the picture is human, it tells you the most resembling breed of dogs.
