@@ -6,4 +6,12 @@ In this project, we build a dog-breed classifier using CNN (Convolutional Neural
 2. Build a dog detector using pre-trained VGG-16. It is trained on ImageNet and 1000 categories.
 3. Build a dog breed classifier from scratch.
 4. Build a dog breed classifier using transfer learning with VGG-16.
-5. Combine the above to create an app. Given a picture, the app tells 1) if it is 
+5. Combine the above to create an app. Given a picture, the app tells 1) if the picture is a dog, then what breed it is, 2) if the picture is a human, what breed it most resembles to, 3) the picture is neither a human nor a dog
+
+## Network Structure
+
+## Model Performance
+
+
+
+## Examples
