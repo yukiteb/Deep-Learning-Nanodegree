@@ -3,3 +3,5 @@ In this project, we build a simple neural network from scratch using numpy to pr
 ## Steps
 1. Read and preprocess the data
 2. Build a network with a single hidden layer
+
+## Results
