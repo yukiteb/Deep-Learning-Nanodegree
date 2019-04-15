@@ -22,7 +22,7 @@ We built 2 network 1) one from scratch, 2) one with pre-trained model (VGG)
 Pre-trained VGG -> Dropout -> FC1 (500) -> Relu -> Dropout -> FC2 (133) -> Logsoftmax
 
 ## Model Performance
-The model from scratch achieved accuracy of 16%, and the pre-trained model achieved the accuracy of 73%
+- The model from scratch achieved accuracy of 16%, and the pre-trained model achieved the accuracy of 73%
 
 
 ## Examples
