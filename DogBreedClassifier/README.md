@@ -12,11 +12,11 @@ In this project, we build a dog-breed classifier using CNN (Convolutional Neural
 We built 2 network 1) one from scratch, 2) one with pre-trained model (VGG)
 
 ### Network from Scratch
-Input Image (224 x 224 x 3)
-Convolution layer with 16 filters (224 x 224 x 16) -> Relu -> MaxPooling layer (112 x 112 x 16) -> Batch Norm
-Convolution layer with 32 filters (112 x 112 x 32) -> Relu ->MaxPooling layer (56 x 56 x 32) -> Batch Norm
-Convolution layer with 64 filters (56 x 56 x 64) -> Relu ->MaxPooling layer (28 x 28 x 64) -> Batch Norm
-DropOut Layer -> FC Layer (1000) -> Relu -> DropOut -> FC Layer (500) -> Relu -> DropOut -> FCLayer (133)
+- Input Image (224 x 224 x 3)
+- Convolution layer with 16 filters (224 x 224 x 16) -> Relu -> MaxPooling layer (112 x 112 x 16) -> Batch Norm
+- Convolution layer with 32 filters (112 x 112 x 32) -> Relu ->MaxPooling layer (56 x 56 x 32) -> Batch Norm
+- Convolution layer with 64 filters (56 x 56 x 64) -> Relu ->MaxPooling layer (28 x 28 x 64) -> Batch Norm
+- DropOut Layer -> FC Layer (1000) -> Relu -> DropOut -> FC Layer (500) -> Relu -> DropOut -> FCLayer (133)
 
 ### Network with pre-trained model
 Pre-trained VGG -> Dropout -> FC1 (500) -> Relu -> Dropout -> FC2 (133) -> Logsoftmax
