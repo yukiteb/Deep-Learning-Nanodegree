@@ -3,7 +3,7 @@ In this project, we build a dog-breed classifier using CNN (Convolutional Neural
 
 ## Project Steps
 1. Build a human face-detector using OpenCV.
-2. Build a dog detector using pre-trained VGG-16. It is trained on ImageNet and 1000 categories.
+2. Build a dog detector using pre-trained VGG-16. It is trained on ImageNet (1000 image categories).
 3. Build a dog breed classifier from scratch.
 4. Build a dog breed classifier using transfer learning with VGG-16.
 5. Combine the above to create an app. Given a picture, the app tells 1) if the picture is a dog, then what breed it is, 2) if the picture is a human, what breed it most resembles to, 3) the picture is neither a human nor a dog
@@ -19,10 +19,11 @@ We built 2 network 1) one from scratch, 2) one with pre-trained model (VGG)
 - DropOut Layer -> FC Layer (1000) -> Relu -> DropOut -> FC Layer (500) -> Relu -> DropOut -> FCLayer (133)
 
 ### Network with pre-trained model
-Pre-trained VGG -> Dropout -> FC1 (500) -> Relu -> Dropout -> FC2 (133) -> Logsoftmax
+- Pre-trained VGG -> Dropout -> FC1 (500) -> Relu -> Dropout -> FC2 (133) -> Logsoftmax
 
 ## Model Performance
-- The model from scratch achieved accuracy of 16%, and the pre-trained model achieved the accuracy of 73%
+The model from scratch achieved accuracy of <b>16%</b>, and the pre-trained model achieved the accuracy of <b>73%</b>.
 
 
 ## Examples
+Below is  the some examples of app.
