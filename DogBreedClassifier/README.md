@@ -27,4 +27,4 @@ The model from scratch achieved accuracy of <b>16%</b>, and the pre-trained mode
 
 ## Examples
 Below is  the some examples of app.
-![Example](https://github.com/yukiteb/Deep-Learning-Nanodegree/DogBreedClassifier/dog_app_example.PNG)
+![Example](https://github.com/yukiteb/Deep-Learning-Nanodegree/DogBreedClassifier/blob/master/dog_app_example.PNG)
