@@ -6,4 +6,5 @@ In this project, we build a simple neural network from scratch using numpy to pr
 
 ## Results
 Here is the result
+
 ![Result](https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/PredictBikeSharing/result.PNG)
