@@ -6,7 +6,7 @@ In this project, we build a simple neural network from scratch using numpy to pr
 3. Train the network - use SGD for 10,000 iterations
 
 
-![Training](https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/PredictBikeSharing/bikeshare_train.PNG)
+![Training](https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/PredictBikeSharing/bikeshare_train.png)
 
 ## Results
 Here is the result
