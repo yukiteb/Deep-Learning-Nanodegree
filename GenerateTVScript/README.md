@@ -17,9 +17,13 @@ george: yes, it was purple, i liked it, i dont actually recall considering the b
 </i>
 
 ## Project Steps
-1. Pre-process data: tokenize, and create a dictionary of word to integer
-2. Build network: embedding later and LSTM
-3. Train: 
+1. Pre-process data - tokenize, and create a dictionary of word to integer
+2. Build network - there is embedding layer and LSTM layer. The size of embedding dimension, number of LSTM layers, number of hidden units in LSTM layer, as well as length of output sequence are the hyperparameters of the model.
+3. Train - aim at los lower than <b>3.5</b>
+4. Result - generate scripts from the trained model and see how real it looks like.
+
+## Hyperparamter tuning
+The Initially, I was trying a smaller set of hidden dimension (16, 32, 64, 128) with a few number of layers (2, 3). But it did not converge well and the loss stopped around 4. I increased the hidden_dimension to a larger number (256) and it started to have a better result. I've also adjusted the learning rate to be smaller as the higher learning rate (0.01 or 0.005) did not have good convergence property. I've also tried shorter sequence length (5,10) but did not converge well either.
 
 ## Result
 
