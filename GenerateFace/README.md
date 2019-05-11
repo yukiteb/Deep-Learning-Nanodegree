@@ -1,7 +1,7 @@
 # Generate Faces with DCGAN
 In this project, we build a model to generate faces using DCGAN (Deep Convolutional Generative Adversarial Network). The model learns the distribution of faces from the celebrity images, and it generates whole new set of face images which look like a real celebrity!
 
-## Training
+## Data
 The training data come from [CelebFaces Attributes Dataset (CelebA)](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). Below are the examples of training data.
 
 ![Training Data](https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/GenerateFace/DCGAN_train_data.PNG)
