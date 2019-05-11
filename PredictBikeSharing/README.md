@@ -7,14 +7,18 @@ The data comes from the [UCI Machine Learning Database](https://archive.ics.uci.
 <img src="https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/PredictBikeSharing/bikeshare_data.png" width="500" height="350">
 
 ## Project Steps
-1. Read and preprocess the data
-2. Build a network with a single hidden layer - 
-3. Train the network - use SGD for 10,000 iterations
+1. Read and preprocess the data - convert categorical to numerical, standardize the scale.
+2. Build a network with a single hidden layer - number of node in the hidden layer is a hyperparameter.
+3. Train the network - use SGD (Stochastic Gradient Descend) for 10,000 iterations.
+
+Here is the plot of training loss and validation loss.
 
 <img src="https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/PredictBikeSharing/bikeshare_train.png" width="500" height="350">
 
 ## Results
-Here is the result
+Below is the result of prediction against test set (last 21 days of data). 
 
 <img src="https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/PredictBikeSharing/result.PNG" width="500" height="350">
+
+The model does a pretty good job until just before the Christmas starts. The model predicts much higher number of bike ride during the Christmas till the end of the year. This is understandable, as the model has only seen 1 Christmas/year end in the training data, and this time priod is quite different. Perhaps people do not do as much bike ride as normal time (stay home, go for vacation etc), so the model predicts much higher rides than the actual number of rides. 
 
