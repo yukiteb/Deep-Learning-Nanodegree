@@ -4,7 +4,7 @@ In this project, we build a simple neural network from scratch using numpy to pr
 ## Data
 The data comes from the [UCI Machine Learning Database](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset). This dataset has the number of riders for each hour of each day from January 1 2011 to December 31 2012. Below is a plot showing the number of bike riders over the first 10 days or so in the data set.
 
-<img src="https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/PredictBikeSharing/bikeshare_data.png" width="500" height="400">
+<img src="https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/PredictBikeSharing/bikeshare_data.png" width="500" height="350">
 
 ## Project Steps
 1. Read and preprocess the data
@@ -17,4 +17,5 @@ The data comes from the [UCI Machine Learning Database](https://archive.ics.uci.
 ## Results
 Here is the result
 
-![Result](https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/PredictBikeSharing/result.PNG)
+<img src="https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/PredictBikeSharing/result.PNG" width="500" height="350">
+
