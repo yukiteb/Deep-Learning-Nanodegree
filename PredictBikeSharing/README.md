@@ -11,8 +11,7 @@ The data comes from the [UCI Machine Learning Database](https://archive.ics.uci.
 2. Build a network with a single hidden layer - 
 3. Train the network - use SGD for 10,000 iterations
 
-
-![Training](https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/PredictBikeSharing/bikeshare_train.png)
+<img src="https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/PredictBikeSharing/bikeshare_train.png" width="500" height="350">
 
 ## Results
 Here is the result
