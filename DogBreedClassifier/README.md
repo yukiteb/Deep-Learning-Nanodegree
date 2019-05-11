@@ -1,5 +1,5 @@
 # Classifying Dog Breed with CNN
-In this project, we build a dog-breed classifier using CNN (Convolutional Neural Network). First, we. Finally, we build an app (function) which tells whether a given picture of whether it is a human, a dog, or something else. If the app identifies picture as a dog then it tells you the breed, but if the picture is human, it tells you the most resembling breed of dogs.
+In this project, we build a dog-breed classifier using CNN (Convolutional Neural Network). We build CNN from scratch, as well as pre-trained VGG-16-based CNN using transfer learning. Finally, we build an app (function) which tells whether a given picture of whether it is a human, a dog, or something else. If the app identifies picture as a dog then it tells you the breed, but if the picture is human, it tells you the most resembling breed of dogs.
 
 ## Project Steps
 1. Build a human face-detector using OpenCV.
@@ -9,7 +9,7 @@ In this project, we build a dog-breed classifier using CNN (Convolutional Neural
 5. Combine the above to create an app. Given a picture, the app tells 1) if the picture is a dog, then what breed it is, 2) if the picture is a human, what breed it most resembles to, 3) the picture is neither a human nor a dog
 
 ## Network Structure
-We built 2 network 1) one from scratch, 2) one with pre-trained model (VGG)
+We built 2 network 1) one from scratch, 2) one with pre-trained model (VGG-16). Below are the structure of both networks:
 
 ### Network from Scratch
 - Input Image (224 x 224 x 3)
