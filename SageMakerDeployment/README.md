@@ -20,9 +20,14 @@ We use [IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/)
 
 ## Deploying Web App
 
-We create
+To delopy a web app, we need to set up
 
-<img src="https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/SageMakerDeployment/web_app.PNG" width=800 height=200>
+- <b>Lambda function</b>: This Lambda function will be executed whenever our public API has data sent to it. When it is executed it will receive the data, perform any sort of processing that is required, send the data (the review) to the SageMaker endpoint we've created and then return the result.
+- <b>API Gateway</b>: API Gateway triggers the Lambda function created above
+
+The interface of the web app looks like below:
+
+<img src="https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/SageMakerDeployment/web_app.PNG" width=800 height=250>
 
 ## Result
 The example of the review and result is below:
