@@ -20,6 +20,10 @@ We use [IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/)
 
 ## Deploying Web App
 
+We create
+
+<img src="https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/SageMakerDeployment/web_app.PNG" width=800 height=200>
+
 ## Result
 The example of the review and result is below:
 
