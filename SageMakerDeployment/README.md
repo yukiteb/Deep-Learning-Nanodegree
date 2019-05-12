@@ -16,3 +16,14 @@ We use [IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/)
 6. Deploy the trained model.
 7. Use the deployed model.
 
+## Model
+
+## Deploying Web App
+
+## Result
+The example of the review and result is below:
+
+<b>Review</b>: The movie was great and I really liked it. From the beginning to the end, I was never bored and the time really flies when I was watching the movie.
+
+<b>Result</b>: Your review was POSITIVE! 
+
