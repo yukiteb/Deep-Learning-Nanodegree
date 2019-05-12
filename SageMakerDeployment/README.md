@@ -2,6 +2,10 @@
 
 In this project, we demonstrate how we can delopy sentiment analysis model on AWS SageMaker. A simple LSTM based model is used for the sentiment analysis. Together with Lambda function and API gateway,
 
+## Data
+
+We use [IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/)
+
 ## Steps
 
 1. Download or otherwise retrieve the data.
