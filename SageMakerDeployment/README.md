@@ -1,10 +1,10 @@
 # Deploying Sentiment Analysis Model on SageMaker
 
-In this project, we demonstrate how we can delopy sentiment analysis model on AWS SageMaker. A simple LSTM based model is used for the sentiment analysis. Together with Lambda function and API gateway,
+In this project, we demonstrate how we can delopy sentiment analysis model on AWS SageMaker. A simple LSTM based model is used for the sentiment analysis. Together with Lambda function and API gateway, we build a web app which tells whether the sentiment of the user-given movie review is positive or negative.
 
 ## Data
 
-We use [IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/)
+We use [IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/) for the set of labeled movie reviews.
 
 ## Steps
 
@@ -17,6 +17,12 @@ We use [IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/)
 7. Use the deployed model.
 
 ## Model
+
+The model has the following structure:
+
+- Embedding layer -> LSTM layer -> FC Layer
+
+We used 32 dimensions for embedding layer and 100 hidden units in the LSTM layer.
 
 ## Deploying Web App
 
