@@ -10,4 +10,4 @@ This repo contains the projects for the purpose of Deep Learning Nanodegree from
 
 4. [Generate Faces with DCGAN](/GenerateFace/README.md) - In this project, we build a model to generate faces using DCGAN (Deep Convolutional Generative Adversarial Network). The model learns the distribution of faces from the celebrity images, and it generates whole new set of face images which look like a real celebrity!
 
-5. [Deploying Sentiment Analysis Model on SageMaker](/SageMakerDeployment/README.md) - In this project, we demonstrate how we can delopy sentiment analysis model on AWS SageMaker. A simple LSTM based model is used for the sentiment analysis. Together with Lambda function and API gateway, 
+5. [Deploying Sentiment Analysis Model on SageMaker](/SageMakerDeployment/README.md) - In this project, we demonstrate how we can delopy sentiment analysis model on AWS SageMaker. A simple LSTM based model is used for the sentiment analysis. Together with Lambda function and API gateway, we build a web app which tells whether the sentiment of the user-given movie review is positive or negative.
