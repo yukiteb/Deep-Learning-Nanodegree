@@ -7,8 +7,8 @@ The training data come from [CelebFaces Attributes Dataset (CelebA)](http://mmla
 ![Training Data](https://github.com/yukiteb/Deep-Learning-Nanodegree/blob/master/GenerateFace/DCGAN_train_data.PNG)
 
 ## Project Steps
-1. Build a Discriminator - a discriminator takes an image and output a single value that indicates whether a given image is real or fake.
-2. Build a Generator - a generator take a vector and output an image.
+1. Build a Discriminator - a discriminator takes an image and outputs a single value that indicates whether a given image is real or fake.
+2. Build a Generator - a generator takes a vector and outputs an image.
 3. Define a Discriminator/Generator Loss - Discriminator loss is minimized when it correctly discrminates whether the image is real or fake. Generator loss is exactly opposite of discriminator, when it successfully fools the discriminator to think that the generated image is a real one.
 4. Train the network
 5. Generate pictures
@@ -21,7 +21,7 @@ Below is the structure of Discriminator and Generator.
 
 - takes 32x32 image tensor
 - there are 3 convolutional layers, followed by a FC layer
-- leaky ReLu is applied as an activiation function and dropout regularization is used after every conv layer.
+- leaky ReLu is applied as an activiation function and dropout regularization is used after every convolutional layer.
 
 ### Generator
 
