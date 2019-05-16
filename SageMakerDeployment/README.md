@@ -6,6 +6,18 @@ In this project, we demonstrate how we can delopy sentiment analysis model on AW
 
 We use [IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/) for the set of labeled movie reviews.
 
+## File structure
+The files are structured as follows:
+```
+
+| - template
+| - master.html  # main page of web app
+| - go.html  # classification result page of web app
+| - run.py  # Flask file that runs app
+
+- README.md
+```
+
 ## Steps
 
 1. Download or otherwise retrieve the data.
