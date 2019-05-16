@@ -10,12 +10,11 @@ We use [IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/) for the set
 The files are structured as follows:
 ```
 
-| - template
-| - master.html  # main page of web app
-| - go.html  # classification result page of web app
-| - run.py  # Flask file that runs app
+| - SageMaker Project.ipynb # main notebokk which contains all the analysis
+| - index.html  # main page of web app
+| - predict.py  # contains functions related to prediction/inference
+| - train.py  # contains functions related to training
 
-- README.md
 ```
 
 ## Steps
