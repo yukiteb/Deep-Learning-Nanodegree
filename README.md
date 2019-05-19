@@ -1,8 +1,8 @@
 # Deep-Learning-Nanodegree
 
-This repo contains the projects for the purpose of Deep Learning Nanodegree from Udacity. There are 5 projects:
+This repo contains the projects for the purpose of Deep Learning Nanodegree from Udacity. We use PyTorch to build models except for te first project (Predicting Bike-Sharing Pattern) which uses just numpy. There are 5 projects:
 
-1. [Predicting Bike-Sharing Pattern](/PredictBikeSharing/README.md) - In this project, a simgple neural network is built with numpy to predict the predict daily bike rental ridership.
+1. [Predicting Bike-Sharing Pattern](/PredictBikeSharing/README.md) - In this project, a simgple neural network (single hidden layer) is built just with numpy to predict the predict daily bike rental ridership.
 
 2. [Classifying Dog Breed with CNN](/DogBreedClassifier/README.md) - In this project, we build a dog-breed classifier using CNN (Convolutional Neural Network). First, we. Finally, we build an app (function) which tells whether a given picture of whether it is a human, a dog, or something else. If the app identifies the breed of dog, but if the picture is human, it tells you the most resembling breed of dogs.
 
