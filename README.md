@@ -1,6 +1,6 @@
 # Deep-Learning-Nanodegree
 
-This repo contains the projects for the purpose of Deep Learning Nanodegree from Udacity. We use PyTorch to build models except for te first project (Predicting Bike-Sharing Pattern) which uses just numpy. There are 5 projects:
+This repo contains the projects for the purpose of Deep Learning Nanodegree from Udacity. We use PyTorch to build deep learning models except for the first project (Predicting Bike-Sharing Pattern) which uses just numpy. There are 5 projects:
 
 1. [Predicting Bike-Sharing Pattern](/PredictBikeSharing/README.md) - In this project, a simgple neural network (single hidden layer) is built just with numpy to predict the predict daily bike rental ridership.
 
